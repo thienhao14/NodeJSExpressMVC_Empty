@@ -1,0 +1,14 @@
+{
+  "main": "./startup.js",
+  "scripts": {
+    "start": "nodemon -e * ./startup.js"
+  },
+  "engines": {
+    "node": "10"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4",
+    "request": "^2.88.2"
+  }
+}
